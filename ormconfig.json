@@ -8,10 +8,10 @@
   "port": 5432,
   "database": "fin_api",
   "entities": [
-    "./src/modules/**/entities/*.ts"
+    "./src/modules/**/entities/*.{ts,js}"
   ],
   "migrations": [
-    "./src/database/migrations/*.ts"
+    "./src/database/migrations/*.{ts,js}"
   ],
   "cli": {
     "migrationsDir": "./src/database/migrations"
